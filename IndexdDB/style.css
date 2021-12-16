@@ -1,0 +1,113 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.caja{
+    width: 100%;
+    height: 200px;
+}
+
+.formulario{
+    text-align: center;
+}
+
+input, button[type="reset"]{
+    display: block;
+    width: 200px;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid #00f;
+}
+
+input:hover{
+    opacity: 0.5;
+    color: #000;
+    border-radius: 5px;
+}
+
+.boton:active{
+    background-color: #00f;
+}
+
+.red{
+    color: #f00;
+}
+.green{
+    color: #080;
+}
+
+.res2{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 70px;
+    border-top: 3px solid #00a;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.textos{
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+}
+
+.textosIn{
+    display: flex;
+    width: 100px;
+}
+
+.titulos{
+    margin-left: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+.boton_guardar, .boton_borrar{
+    width: 80px;
+    margin-top: 15px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #000;
+}
+
+.boton_borrar:hover{
+    color: #f00;
+}
+
+.boton_borrar:active{
+    background-color: #f00;
+    opacity: 0.7;
+    padding: 5px;
+    color: #fff;
+}
+
+.acceso{
+    color: #00f;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+.acceso:hover{
+    color: #008;
+}
+.acceso:active{
+    background-color: #00f;
+    opacity: 0.7;
+    padding: 5px;
+    color: #fff;
+}
+
+.no_acceso{
+    color: #aaa;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
